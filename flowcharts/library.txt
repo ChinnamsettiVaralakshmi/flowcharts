@@ -1,0 +1,28 @@
+Library Management 
+1.Librarian
+2.user
+3.Admin
+
+Librarian
+step1:start
+step2:Librarian check books,maintain registers,allocating books to the user
+step3:user asks for the books librarian enter the user name in the register and checks for the book
+step4:if book is available issued to the user and add details to the register otherwise not issued go to step5
+step5:stop
+
+user
+step1:start
+step2: user enter into the library and write their name in  the register book
+step3:user search for the book if user got that book  wants to borrow
+step4: go to the librarian and librarian checks the borrower card if card is available go to step5
+step5:if user returns already issued books then librarian issues a book and the details in the register otherwise
+step6:librarian doesnt issues that book  to the user
+step7:stop
+
+Admin
+step1:start
+step2:admin is the incharge of the library and admin register the librarians to the library
+step3:and maintain whole library data
+step4:After registering the librarian then only librarian access the library otherwise not access by the librarian
+step5:if books are insufficient librarians inform to the admin 
+step6:stop
